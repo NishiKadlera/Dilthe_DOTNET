@@ -5,79 +5,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animals</title>
+    <link rel="stylesheet" href="Assets/style.css">
+    <style>
+        body
+        {
+            background-image: url("Assets/image\ 7.jpg");
+            background-attachment: fixed;
+            background-size: cover ;
+        }
+        h1
+        {
+          background-color: blueviolet;
+          color: chartreuse;
+        }
+        li
+        {
+            background-color: bisque;
+            color: brown;
+        }
+        #best
+        {
+            color: brown;
+            background-color: gold;
+        }
+        .vores
+        {
+            background-color: blue;
+            text-align: center;
+            text-decoration-line: underline;
+        } 
+        h1,h2,h3
+        {
+            font-style: calc();
+            font-family: 'Times New Roman', Times, serif ;
+            color: black;
+            background-color: blanchedalmond;
+        }
+        h4.vores
+        {
+            background-color: bisque;
+            color: black;
+        }
+        th
+         {
+             padding: 10px;
+             text-align: center;
+             font-size: medium;
+             font-style: calc();
+             color: blue;
+             background-color: cornflowerblue;
+         }
+         tr :nth-child(odd)
+         {
+            padding: 10px;
+             text-align: center;
+             font-size: medium;
+             font-style: oblique;
+             color: rgb(111, 0, 255);
+             background-color: rgb(171, 187, 216);
+         }
+         tr :nth-child(even)
+         {
+            padding: 10px;
+             text-align: center;
+             font-size: medium;
+             font-style: oblique;
+             color: rgb(72, 94, 156);
+             background-color: rgb(218, 143, 166); 
+         }
+         tr :hover
+         {
+           background-color: chocolate;  
+           color: darkgreen;
+         }
+         p ::first-line
+         {
+             color: rgb(184, 95, 95);
+             font-size: larger;
+         }
+         ::marker
+        {
+            color:blueviolet;
+        }
+        ::selection
+        {
+            color:crimson;
+            background-color: bisque;
+    </style>
 </head>
 <body style="background-color: rgb(209, 209, 116);">
     <h1>Animals</h1>
-    <p><b>Animals</b>(also called Metazoa) are <i>multicellular, eukaryotic</i> organisms in the biological kingdom <i>Animalia</i>. With few exceptions, animals consume organic material, breathe oxygen, are able to move, can reproduce sexually, and go through an ontogenetic stage in which their body consists of a hollow sphere of cells, the blastula, during embryonic development. Over 1.5 million living animal species have been described—of which around 1 million are insects—but it has been estimated there are over 7 million animal species in total.</p>
+    <p style="background-color: aquamarine;font-size: medium;font-family: Arial, Helvetica, sans-serif;"><b>Animals</b>(also called Metazoa) are <i>multicellular, eukaryotic</i> organisms in the biological kingdom <i>Animalia</i>. With few exceptions, animals consume organic material, breathe oxygen, are able to move, can reproduce sexually, and go through an ontogenetic stage in which their body consists of a hollow sphere of cells, the blastula, during embryonic development. Over 1.5 million living animal species have been described—of which around 1 million are insects—but it has been estimated there are over 7 million animal species in total.</p>
     im
 <h2>Types of Animals</h2>
 <ol>
     <li><b>Carnivores</b></li>
     <li><b>Omnivores</b></li>
 </ol>
-    <h3>Carnivores:</h3>
+    <h3 class="vores">Carnivores:</h3>
     <p>A carnivore is an organism that mostly eats meat, or the flesh of animals. Sometimes carnivores are called predators. Organisms that carnivores hunt are called prey. Carnivores are a major part of the food web, a description of which organisms eat which other organisms in the wild.</p>
-    <img src="Images/image 1.jpg" height="200" width="200" alt="Lion"> 
+    <img src="Assets/image 1.jpg" height="200" width="200" alt="Lion"> 
      <p><a href="https://en.wikipedia.org/wiki/Lion" target="_blank">Lion</a></p>
     <br>
     <div>
-        <img src="Images/image 2.jpg" height="200" width="200" alt="Hyena">
+        <img src="Assets/image 2.jpg" height="200" width="200" alt="Hyena">
         <p><a href="https://en.wikipedia.org/wiki/Hyena" target="_blank">Hyena</a></p>
     </div>
     <br>
     <div>
-        <img src="Images/image 3.jpg" height="200" width="200" alt="Tiger">
+        <img src="Assets/image 3.jpg" height="200" width="200" alt="Tiger">
         <p><a href="https://en.wikipedia.org/wiki/Tiger" target="_blank">Tiger</a></p> 
     </div>
     <br>
-    <h3>Omnivores:</h3>
+    <h3 class="vores">Omnivores:</h3>
     <p>An omnivore <b>is an organism that eats plants and animals</b>. The term stems from the Latin words omnis, meaning “all or everything,” and vorare, meaning “to devour or eat.” Omnivores play an important part of the food chain, a sequence of organisms that produce energy and nutrients for other organisms.</p>
-    <img src="Images/image 4.jpg" height="200" width="200" alt="Bear"> 
+    <img src="Assets/image 4.jpg" height="200" width="200" alt="Bear"> 
      <p><a href="https://en.wikipedia.org/wiki/Bear" target="_blank">Bear</a></p>
     <br>
     <div>
-        <img src="Images/image 5.jpg" height="200" width="200" alt="Dog">
+        <img src="Assets/image 5.jpg" height="200" width="200" alt="Dog">
         <p><a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Dog</a></p>
     </div>
     <br>
     <div>
-        <img src="Images/image6.jpg" height="200" width="200" alt="Cat">
+        <img src="Assets/image6.jpg" height="200" width="200" alt="Cat">
         <p><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Cat</a></p> 
     </div>
     <br>
-     <h3>Pet Animals and Wild Animals</h3>
+     <h3 id="best">Pet Animals and Wild Animals</h3>
      <table border="1">
          <thead>
              <tr>
                 <th>Pet ANimals</th>
                 <th>Wild Animals</th>
+                <th colspan="2" >Carnivores</th>
+                <th colspan="2" >Omnivores</th>
              </tr>
          </thead>
          <tbody>
              <tr>
                  <td>Cat</td>
                  <td>Tiger</td>
+                 <td>Tiger</td><td>cub</td>
+                 <td>Cat</td><td>Kitten</td>
+                 
              </tr>
              <tr>
                 <td>Dog</td>
                 <td>Lion</td>
+                <td>Lion</td><td>Cub</td>
+                 <td>Dog</td><td>Puppy</td>
             </tr>
             <tr>
                 <td>Horse</td>
                 <td>Monkey</td>
+                <td>None</td><td>None</td>
+                 <td>Horse</td><td>foal</td>
             </tr>
             <tr>
                 <td>Rabbit</td>
                 <td>Wolf</td>
+                <td>Wolf</td><td>pups</td>
+                 <td>Rabbit</td><td>kits</td>
             </tr>
             <tr>
                 <td>Turtle</td>
                 <td>Gorilla</td>
+                <td>None</td><td>None</td>
+                 <td>Gorilla</td><td>infants</td>
             </tr>
          </tbody>
      </table>
-     <h2>Pet Animals</h2>
+     <h2 class="vores">Pet Animals</h2>
+     <h3 id="best">Dogs are the best!</H3>
      <p>A pet is a domesticated animal that lives with people, but is not forced to work and is not eaten, in most instances. In most cases, a pet is kept to entertain people or for companionship. Some pets such as dogs and cats are placed in an animal shelter if there is no one willing to take care of them.</p>
-     <video src="Images/Pexels Videos 2912.mp4" type="Pet Animals" width="200px" height="200px"></video>
+     <video src="Assets/Pexels Videos 2912.mp4" height="200" width="200" type="Pet Animals"></video>
+     <audio src="Assets/LionGrowlAngryGene PE931903.mp3" type="mp3" ></audio>
+     <h4 class="vores">Cats!</h4>
 </body>
 </html>
