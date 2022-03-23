@@ -20,6 +20,8 @@ h1.heading
     box-shadow: 5px;
     text-shadow: 2px 2px 3px lightblue;text-align: center;
     color: brown;
+    font-style: italic;
+    text-shadow: 2px 2px 3px rgb(255, 0, 149) ;
 }
 .box
 {
@@ -27,6 +29,10 @@ border-style: dotted;
 border-color: red;
 border-radius: 10px;
 font-size: larger;
+}
+input
+{
+    color: rgb(235, 17, 28);
 }
     </style>
 
@@ -48,11 +54,14 @@ font-size: larger;
             <textarea></textarea><br><br>
             <label><b>Contact Number:</b> </label>
             <input type="text" name="number"><br><br>
+            <label><b>Gender:</b></label>
+            <input type="radio" name="gender" checked>Female
+            <input type="radio" name="gender" checked>Male <br><br>
             <label><b>Age:</b> </label>
             <input type="number" name="number"><br><br>
             <label> <b>DOB:</b></label>
             <input type="date" name="DOB"><br><br>
-        </fieldset>
+        </fieldset><br><br>
         <fieldset>
             <legend>
                 <h6 class="box">Education Details</h6>
