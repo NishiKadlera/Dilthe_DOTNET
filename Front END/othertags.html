@@ -8,11 +8,14 @@
     <style>
        body
        {
-           background-color: beige;
-           background-image: url("Assets/image\ 11\.jpg");
-           background-attachment: fixed;
-           background-size: cover ;
-           color: rgb(153, 6, 6);
+        background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+           color: rgb(182, 250, 73);
+       }
+       h1
+       {
+        text-align: center;text-decoration-line: underline;text-underline-offset: 2px; text-underline-position: below;
        }
 
     </style>
@@ -44,6 +47,10 @@
         <img src="Assets/image 10.png" alt="HTML" width="200" height="200">
          <figcaption style="text-align: left;">Hypertext Markup Language</figcaption>
     </figure>
+    <map name="css">
+        <area shape="rect" coords="160,160,870,470" alt="css" href="assets/img2.jpg">
+        <area shape="rect" coords="500,450,640,520" alt="css1" href="assets/img3.jpg">
+    </map>
 
     <img src="Assets/image 10.png" alt="HTML" width="200px" height="200px" usemap="#HTML">
     
@@ -56,32 +63,5 @@
 <footer>
     HTML
 </footer>
-<!--forms-->
-<h1 style="text-align: ;">Student details</h1>
-<form action="" method="post">
-<fieldset>
-    <legend>
-        Student Details
-    </legend>
-    <label>Student FirstName</label>
-    <input type="text" name="FirstName"><br> <br>
-    <label>Student LastName</label>
-    <input type="text" name="LastName"><br><br>
-    <label>Student eamil</label>
-    <input type="email" name="email"><br> <br>
-
-    <label>Gender</label><br>
-    <input type="radio" name="gender" checked>Male <br>
-        <input type="radio" name="gender" checked>Female <br><br>
-        <label>Student Age</label>
-    <input type="number" name="age"><br> <br>
-    <label>Student DOB</label>
-    <input type="date" name="DOB"><br> <br>
-    <labe>Educational Qualifications</label>
-        <input type name="Higest Qualification" ><br> <br>
-<input type="submit" name="submit">
-
-</fieldset>
-</form>
 </body>
 </html>
