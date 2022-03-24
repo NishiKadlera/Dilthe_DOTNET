@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Displays</title>
+</head>
+<body>
+    <p id="UserName"></p>
+    <p id="student"></p>
+    <p id="student1"></p>
+    <p id="student2"></p>
+    <p id="type"></p>
+    <script>
+        var name="Anil";
+        var age= 30
+        var address= "XYZ technologies"
+        const StuDetails=
+        {
+stuid: 1,
+stuname: "John",
+stuAge: 29,
+stuheight: 5.9,
+        };
+        document.write("Anil's age is: " + age + "<br>" + "<br>");
+        document.write("Anil's adress is: " + address);
+        document.getElementById("UserName").innerHTML=name;
+        document.getElementById("student").innerHTML= StuDetails.stuname + " 's age is " + StuDetails.stuAge;
+        document.getElementById("student1").innerHTML= StuDetails.stuname + " 's id is " + StuDetails.stuid;
+        document.getElementById("student2").innerHTML= "Student " + StuDetails.stuname + " 's height is " + StuDetails.stuheight;
+        document.getElementById("type").innerHTML= typeof "hi"+  "<br>" + "<br>"+ typeof 29;
+    </script>
+</body>
+</html>

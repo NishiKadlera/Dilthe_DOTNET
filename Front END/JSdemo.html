@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DEMO</title>
+    <script type="text/javascript" src="Assets/Sample.js"></script>
+    <script>
+        function message()
+        {
+            alert("Welcome to Javascript") ;
+        }
+    </script>
+
+</head>
+<body>
+    <input type="submit" onclick="message()" value="click me">
+    <script>
+        function message1()
+        {
+            alert("Welcome to Javascript1") ;
+        }
+    </script>
+    <input type="submit" onclick="message1()" value="click me">
+    <input type="submit" onclick="message2()" value="click me">
+    <p><b>Javascript datatypes</b> </p>
+    <script>
+        var a= 10; //number
+        var b= "Coding"; //string
+        var c= true; //boolean
+        var d= 3.14; //decimal
+        var list=["HTML","CSS","JS"]; //array
+        var novalue; //undefined
+        var e= null;
+
+
+        document.write("Number is: " + a + "<br>" + "<br>");
+        document.write("String is: " + b + "<br>" + "<br>");
+        document.write("Boolean is: " + c + "<br>" + "<br>");
+        document.write("Array is: " + list + "<br>" + "<br>");
+        document.write("Undefined is: " + novalue + "<br>" + "<br>");
+        document.write("Null is: " + e + "<br>" + "<br>");
+
+        console.log("Decimal Value is: "+d);
+    
+    
+        alert("Number Value is:"+a)
+    
+    </script>
+
+
+</body>
+</html>
