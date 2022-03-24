@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog emotions</title>
+<style>
+    body
+    {
+        background-image: url("Assets/image\ 7.jpg");
+        background-size: cover;
+    }
+    .ani
+    {
+        border-style: double;
+        width: 500px; height: 350px;
+        background-color: blueviolet;
+        border-width: thick;
+        border-color: rgb(230, 14, 140);
+        position: relative;
+        animation-name: Emotions;
+        animation-duration: 7s;
+        animation-timing-function: linear;
+        animation-delay: 3s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes Emotions
+    {
+    0%{background-image: url("Assets/image 19.jpg"); background-size: cover; border-color: aqua; left: 100px;top: 100;border-radius: 5px;}
+    20%{background-image: url("Assets/image 20.jpg"); background-size: cover; border-color: rgb(241, 42, 7); left: 300px;top: 300;border-radius: 5px;}
+    40%{background-image: url("Assets/image 22.jpg"); background-size: cover; border-color: rgb(27, 5, 228); left: 500px;top: 500;border-radius: 5px;}
+    60%{background-image: url("Assets/image 21.jpg"); background-size: cover; border-color: rgb(239, 243, 10); left: 700px;top: 700;border-radius: 5px;}
+    80%{background-image: url("Assets/image 18.jpg"); background-size: cover; border-color: rgb(8, 235, 8); left: 900px;top: 900;border-radius: 5px;}
+    100%{background-image: url("Assets/image 19.jpg"); background-size: cover; border-color: rgb(253, 9, 103); left: 1000px;top: 1000;border-radius: 5px;}
+    }
+    .ani:hover
+    {
+width: 700px;height: 400px;
+    }
+    #ani1
+    {
+        border-style: double;
+        width: 300px; height: 400px;
+        background-color: blueviolet;
+        border-width: thick;
+        border-color: rgb(230, 14, 140);
+        position: relative;
+        animation-name: Football;
+        animation-duration: 7s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 3s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes Football
+    {
+    0%{background-image: url("Assets/images0.jpg"); background-size: cover; border-color: aqua; left: 100px;top: 100;border-radius: 5px;}
+    20%{background-image: url("Assets/images1.jpg"); background-size: cover; border-color: rgb(241, 42, 7); left: 300px;top: 300;border-radius: 5px;}
+    40%{background-image: url("Assets/images2.jpg"); background-size: cover; border-color: rgb(27, 5, 228); left: 500px;top: 500;border-radius: 5px;}
+    60%{background-image: url("Assets/images3.jpg"); background-size: cover; border-color: rgb(239, 243, 10); left: 700px;top: 700;border-radius: 5px;}
+    80%{background-image: url("Assets/images4.png"); background-size: cover; border-color: rgb(8, 235, 8); left: 900px;top: 900;border-radius: 5px;}
+    100%{background-image: url("Assets/images0.jpg"); background-size: cover; border-color: aqua; left: 100px;top: 100;border-radius: 5px;}
+    }
+</style>
+</head>
+<body>
+    <div class="ani">Emotions</div>
+    <p id="ani1">Football</p>
+</body>
+</html>

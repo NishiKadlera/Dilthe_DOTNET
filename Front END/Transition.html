@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posi</title>
+    <style>
+        .absolute
+        {
+           width: 300px;height: 300px; 
+           border-style: double;
+           border-width: 5px;
+           text-align: center;
+           border-color: chartreuse;
+           position: absolute;
+           top: 100px;
+           left: 100px;
+        }
+        .relative
+        {
+            position: relative;
+            width: 100px;
+            height: 100px;
+        top: 400px;
+        left: 500px;
+        border-style: dotted;
+        text-align: center;
+        border-color: rgb(54, 40, 206);
+        }
+        .absolute:hover
+        {
+width: 500px;
+        }
+       .absolute
+       {
+           transition: width 1s, height 2s, trasform 3s;
+       }
+    </style>
+
+</head>
+<body>
+   
+        <div class="absolute">Hello CSS!</div>
+    <div class="relative">Hello HTML!
+<p class="absolute">Hello</p>
+    </div>
+    
+</body>
+</html>

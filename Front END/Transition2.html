@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        img
+{
+    border-style: double;
+    border-color: blue;
+    transition: width 2s, height 1s, transform 1s;
+}
+img:hover
+{
+    width: 400px; height: 400px;
+    transition-timing-function: ease-out;
+}
+#coding
+{
+    transition: width 5s, height 3s, transform 0.5s; 
+}
+.coding:hover
+{
+    width: 500px; height: 500px;
+}
+    </style>
+</head>
+<body>
+    <img src="Assets/image 4.jpg" alt="Dog" width="200px" height="200px">  <img src="Assets/image 7.jpg" alt="Dog" width="200px" height="200px"><img src="Assets/image 11.jpg" alt="Dog" width="450px" height="400px"> 
+
+<br><br>
+    <img class=coding src="Assets/image 9.jpg" alt="coding" width="400" height="300"><br> <br><br>
+    <img src="Assets/image 7.jpg" alt="Dog" width="200px" height="200px"> <img src="Assets/image 5.jpg" alt="Dog" width="200px" height="200px"><br> 
+    
+</body>
+</html>
