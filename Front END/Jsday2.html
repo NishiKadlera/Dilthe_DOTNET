@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="firstJS"></p>
+    <p id="secondline"></p>
+    <p id="thirdline"></p>
+    <p id="linefour"></p>
+    <p id="linefive"></p>
+    <script>
+        var str= "Hello!";
+        var str1= "This is my first JavaScript of JavaScript programming.";
+        var str2= "JavaScript and '\ basics \' of JavaScript";
+        var result= str1.indexOf("JavaScript");
+        var result1= str2.indexOf("S");
+        
+
+        document.getElementById("firstJS").innerHTML="Welcome to JavaScript!"
+        document.getElementById("secondline").innerHTML= str+ " "+ str1;
+        document.getElementById("thirdline").innerHTML= str2
+        document.getElementById("linefour").innerHTML=result;
+        document.getElementById("linefive").innerHTML=result1;
+        
+        var result2= str1.lastIndexOf("JavaScript");
+        document.write(result2 + "<br>"+ "<br>");
+        document.write(str.charAt(4) + "<br>" + "<br>");
+        document.write(str.concat(str1) + "<br>" + "<br>");
+        document.write(str2.toLowerCase()  + "<br>" + "<br>");
+        document.write(str2.toUpperCase()+ "<br>" + "<br>");
+        var str3= "      JavaScript      ";
+        var str4= str3.slice(10,14);
+        document.write(str4 + "<br>" + "<br>");
+        var str5= str3.trim();
+        document.write(str5 + "<br>" + "<br>");
+        var str6=str5.slice(4,9);
+        document.write(str6 + "<br>" + "<br>");
+
+        var names= "John Katy Peter";
+        var name1= names.split(" ");
+        document.write(name1 + "<br>" + "<br>");
+        document.write(names.split(" ")+ "<br>" + "<br>");
+
+        for(var i=0;i<10;i++)
+        document.write([i] + "<br>" + "<br>");
+        document.write();
+
+        for(var a of names)
+        document.write(a);
+    
+ </script>
+</body>
+</html>

@@ -25,14 +25,40 @@ img:hover
 {
     width: 500px; height: 500px;
 }
+div {
+    text-align: center;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-style: double;
+  border-width: 5px;
+  border-color: brown;
+  transform: translate(50px,100px);
+}
+div.box 
+{
+    transform: rotate(20deg);
+   
+}
+div.rotate
+{
+    transform: rotateX(50deg);
+    transform: rotateY(60deg);
+    transform: rotateZ(70deg);
+}
     </style>
 </head>
 <body>
-    <img src="Assets/image 4.jpg" alt="Dog" width="200px" height="200px">  <img src="Assets/image 7.jpg" alt="Dog" width="200px" height="200px"><img src="Assets/image 11.jpg" alt="Dog" width="350px" height="300px"> 
+    
+    <img src="Assets/image 4.jpg" alt="Dog" width="200px" height="200px">  <img src="Assets/image 7.jpg" alt="Dog" width="200px" height="200px"> <img src="Assets/image 11.jpg" alt="Dog" width="350px" height="300px">
+    <div>Hello</div><br><br><br><br>
+     
 
 <br><br>
+         <div class="box">Hello</div>
     <img class=coding src="Assets/image 9.jpg" alt="coding" width="400" height="300"><br> <br><br>
-    <img src="Assets/image 7.jpg" alt="Dog" width="200px" height="200px"> <img src="Assets/image 5.jpg" alt="Dog" width="200px" height="200px"><br> 
-    
+    <img src="Assets/image 7.jpg" alt="Dog" width="200px" height="200px"> <img src="Assets/image 5.jpg" alt="Dog" width="200px" height="200px"><br> <br><br><br><br><br><br>
+    <div class="rotate">Hello</div>
 </body>
 </html>
