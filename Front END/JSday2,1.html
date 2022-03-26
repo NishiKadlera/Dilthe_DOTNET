@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <script>
+        var colours=["RED","BLUE","GREEN","YELLOW","WHITE"];
+        document.write(colours + "<br>" + "<br>");
+        document.write(colours.length + "<br>" + "<br>");
+
+        colours.push("ORANGE","PURPLE")+ "<br>" + "<br>";
+        document.write(colours+ "<br>" + "<br>");
+
+        colours.unshift("VOILET");
+        document.write(colours+ "<br>" + "<br>");
+
+        var last=colours.pop();
+        document.write(last+"<br>")
+        document.write(colours+"<br>"+"<br>");  
+
+        colours.pop("last");
+        document.write(colours+ "<br>" + "<br>");
+
+        var colours3= colours.shift("start");
+        document.write(colours3+ "<br>");
+        document.write(colours+ "<br>" + "<br>");
+
+        var colours3= colours.shift("start");
+        document.write(colours3+ "<br>");
+        document.write(colours+ "<br>" + "<br>");
+
+        var animals=["Cat","Dog","Cow","Monkey","Horse"];
+        //splice(start,deletecount,intem1,item2..)
+        document.write(animals + "<br>" + "<br>");
+        animals.splice(2,0,'Donkey')+ "<br>" + "<br>";
+        document.write(animals+ "<br>" + "<br>");
+
+        animals.splice(3,2,'Pig','Ox');
+        document.write(animals + "<br>" + "<br>");
+
+        animals.splice(1,3,'Lion','Tiger','Cheetah','Deer');
+        document.write(animals+ "<br>" + "<br>");
+
+var animals1= ["Lion,Tiger,Cheetah,Deer"];
+var animals2= animals.concat(animals1);
+document.write(animals2+ "<br>" + "<br>");
+
+var animals3=animals2.concat(12,13);
+document.write(animals3 + "<br>" + "<br>");
+
+var animals4=animals3.concat('fourteen','fifteen');
+document.write(animals4+ "<br>" + "<br>");
+
+//entries()-displays the key value pairs for each indx in the array
+
+var iterateindex= animals4.entries();
+for(var item of iterateindex)
+{
+    document.write(item + "<br>" + "<br>");
+}
+
+//reverse
+animals4.reverse();
+document.write(animals4+ "<br>"+ "<br>");
+
+//indexOf
+var vehicles=["Car","Bus","Bike","Sccoter","Jeep","Bus"];
+document.write(vehicles+ "<br>"+ "<br>");
+
+var results= vehicles.indexOf("Jeep");
+document.write(results+ "<br>"+ "<br>");
+
+var results1=vehicles.lastIndexOf("Bus");
+document.write(results1+ "<br>"+ "<br>");
+
+result2=vehicles.toString();
+document.write(result2+ "<br>"+ "<br>");
+
+result3=vehicles.join();
+document.write(result3+ "<br>"+ "<br>");
+
+//slice
+
+document.write(vehicles.slice(2,5)+ "<br>"+ "<br>");
+
+//sort
+var num=[3,6,2,7,1,0,4,5];
+num1=num.sort();
+document.write(num1 + "<br>"+ "<br>");
+
+var names=["Anil","Arun","Akhil","John","Sam","Katy","Perry","Peter"];
+names1= names.filter(names=>names.length==5);
+document.write(names1 + "<br>"+ "<br>");
+
+    </script>
+</body>
+</html>
