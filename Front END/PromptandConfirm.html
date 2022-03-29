@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt and Confirm concepts</title>
+</head>
+<body>
+    <button type="button" onclick="submit()">Submit</button><br><br>
+    <button type="button" onclick="AskNumber()">NumberPlease!</button><br><br>
+    <button type="button" onclick="Getcourses()">Course List</button> <br><br>
+    <button type="button" onclick="ChangeLink()">Update link</button><br><br>
+    <button type="button" onclick="ChangeWord()" >Change Content</button>
+    <ul id="a">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>JQUERY</li>
+    </ul>
+    <h4 id="b" style="color: red;"></h4>
+    <a id="c" href="https://en.wikipedia.org/wiki/Lion"target="blank">Lion</a><br><br>
+    <input type="text" name="textbox" id="d">
+    <p>Hello, welcome to <b id="e" style="color: red;">JavaScript</b> </p>
+    <script>
+        function submit()
+        {
+           var msg=confirm("Do you want to submit the form");
+           if(msg)
+           {
+               alert("Form submitted successfully");
+           }
+           else
+           {
+               alert("Go back to edit the form");
+           }         
+        }
+        function AskNumber()
+        {
+            var num=prompt("Please enter your contact number?");
+            alert("We are calling you at "+ num);
+        }
+        function Getcourses()
+        {
+            var courses= document.getElementById("a").innerHTML;
+            document.getElementById("b").innerHTML=courses;
+        }
+        function ChangeLink()
+        {
+            document.getElementById("c").innerHTML="Tiger";
+            document.getElementById("c").href="https://en.wikipedia.org/wiki/Tiger";
+            document.getElementById("c").target="blank";
+            document.getElementById("c").title="Tiger";
+        }
+        function ChangeWord()
+        {
+            var word=document.getElementById("d").value;
+            document.getElementById("e").innerHTML=word;
+        }
+
+
+
+    </script>
+</body>
+</html>

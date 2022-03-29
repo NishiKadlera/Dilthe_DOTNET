@@ -18,28 +18,84 @@ background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Fi
             float: left;
             
         }
+        .form
+        {
+            margin-left: 5in;
+        }
+        .form2
+        {
+            margin-left: 7in;
+        }
+       img
+        {
+            margin-left: 7in;
+            margin-right: 9in;  
+        }
+        p
+        {
+          text-align: center;
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-weight: 800;
+        }
+        label
+        {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 800;
+            text-align: center;
+        }
+        .form3
+        {
+            margin-left: 0.5in;
+        }    
+        
     </style>
 </head>
 <body>
     <h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center;" >Contact Us</h1> 
-    <fieldset style="border-style: double;width:fit-content">
-        <table>
+        <table >
         <thead>
             <tr>
-                <img src="Assets/location.png" alt="location" width="50" height="50" class="demo"> &nbsp; 
-                Home Tour Decors,
-                XYZ block, XYZ stage,
-                XYZ city, XYZ state
-                <br><br><br><br>
-                <img src="Assets/mailbox.png" alt="email" width="50" height="50"class="demo"> &nbsp; 
-                xyz@gmail.com<br><br><br><br>
-                <img src="Assets/phone.png" alt="call"width="50" height="50"class="demo">  &nbsp;9876543210<br><br><br><br>
-                <img src="Assets/clock.png" alt="time"width="50" height="50"class="demo"> &nbsp; Monday-Friday: 9.00AM-10.00 PM<br><br>
+                <img src="Assets/location.png" alt="location" width="50" height="50">
+                <p>Home Tour Decors,XYZ block, XYZ stage,XYZ city, XYZ state</p> <br>
+                <img src="Assets/mailbox.png" alt="email" width="50" height="50">
+                <p> &nbsp; &nbsp;xyz@gmail.com</p><br>
+                <img src="Assets/phone.png" alt="call"width="50" height="50">
+                <p> &nbsp; &nbsp; 9876543210</p> <br>
+                <img src="Assets/clock.png" alt="time"width="50" height="50">
+                 <p> &nbsp; &nbsp; Monday-Friday: 9.00AM-10.00 PM</p> 
             </tr>
         </thead>
-    </table>
+    </table><br><br>
+
+<form action="" method="post" class="form">
+    <fieldset class="form3" style="width: fit-content; border-style: double; border-radius: 5px;">
+        <label>Your Name</label>
+        <input type="text" name="Name"><br><br>
+        <label>Your Email</label>
+        <input type="text" name="Name"><br><br>
+        <label>Your Contact Number</label>
+        <input type="text" name="Name"> <br><br>
+        <label>Your Message</label>
+        <textarea type="message"></textarea><br><br>
     </fieldset>
         
+    </form>
+    <button class="form2" type="button" onclick="submit()"> Submit Form</button>
+        <script>
+            function submit()
+            {
+                var msg=confirm("Do you want to submit the form?")
+                if (msg) 
+                {
+                    alert("Form submitted successfully")
+                }
+                else
+                {
+                    alert("Go back to edit the form")
+                }
+            }
+
+        </script>
        
 
 

@@ -8,7 +8,7 @@
     <style>
         body
         {
-            background: #EECDA3;  /* fallback for old browsers */
+        background: #EECDA3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -48,6 +48,15 @@ font-variant:normal;
         width: 400px; height: 400px;
 
       }
+      #reviews
+      {
+          border-style: double;
+      }
+      .demo4
+      {
+          background-color: black;
+          color: white;
+      }
         
     </style>
 </head>
@@ -56,16 +65,32 @@ font-variant:normal;
         <div class="pagination">
             <a class="demo" href="#">Home</a>&nbsp;&nbsp;&nbsp;
             <a class="demo" href="http://127.0.0.1:5500/Front%20END/Aboutus.html" target="_blank">About Us</a> &nbsp;&nbsp;&nbsp;
-            <a class="demo" href="http://127.0.0.1:5500/Front%20END/Assets/RegisterHere.html" target="_blank">Register Here</a>&nbsp;&nbsp;&nbsp;
-            <a class="demo" href="http://127.0.0.1:5500/Front%20END/Assets/Loginpage.html" target="_blank">Log In</a>&nbsp;&nbsp;&nbsp;
-            <a class="demo" href="http://127.0.0.1:5500/Front%20END/contactus.html">Contact Us</a>
+            <a class="demo" href="http://127.0.0.1:5500/Front%20END/RegisterHere.html" target="_blank">Register Here</a>&nbsp;&nbsp;&nbsp;
+            <a class="demo" href="http://127.0.0.1:5500/Front%20END/Loginpage.html" target="_blank">Log In</a>&nbsp;&nbsp;&nbsp;
+            <a class="demo" href="http://127.0.0.1:5500/Front%20END/contactus.html"target="_blank">Contact Us</a>
         </div>
         <p id="demo2"><b>Home Tour Decors</b> </p> 
         <br><br>
         <p style="font-size: larger;">
             <img src="Assets/images (3).jpg" width="200" height="200" class="demo3">
             There is no denying that the right kind of home decor can truly uplift your home! Add style to your interiors with home accessories and decor that complements your personal taste. Whether you're into a traditional Indian look, or into taking a more modern, contemporary approach to decorating, or anything in between, be sure check out HomeTown’s vast collections of decorative offerings. In addition, they make ideal gifts for the home when shopping for loved ones! From wall paintings to photo frames, indoor plants to flower vases, our home decor items will turn your home into a style haven! Whether completely redecorating your old space, designing a brand-new room from scratch, or simply updating your space for the festive season, our stylish picks will do the job no matter what your current project is.
-        </p>  
+        </p> <br><br><br><br><br>
+        <button class="demo4" type="button" onclick="GetReviews()">Customer Reviews</button>
+        <ul id="list">
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius voluptas magni unde, sapiente ipsam dolore vero et est illo neque cumque magnam voluptate eum quisquam consequuntur fugit beatae. Reiciendis, maxime!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, cupiditate esse illum corporis officia obcaecati, veritatis dolor ab neque qui et ullam aspernatur aut atque rem dolorem, quod similique quas.</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, illo laboriosam iusto quas repudiandae nam dolorum neque atque autem recusandae doloremque deserunt consequuntur quae quibusdam at saepe. Officiis, rerum explicabo?</li>
+        </ul>
+        <p id="reviews"></p>
+        <script>
+            function GetReviews()
+            {
+                var creviews=document.getElementById("list").innerHTML;
+                document.getElementById("reviews").innerHTML=creviews;
+            }
+        
+
+        </script>
     
 </body>
 </html>

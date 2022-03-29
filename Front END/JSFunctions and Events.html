@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Events</title>
+</head>
+<body>
+    <button type="button" onclick="Message()">Click</button><br><br>
+    <button type="button" onclick="Cube(3,3,4)">Calculate cube</button><br><br>
+    <button type="button" onclick="Time()">Time is?</button><br>
+    <p id="a"></p>
+    <button type="button" onclick="Date()">Todays date is?</button><br>
+    <h4 id="b"></h4>
+    <button type="button" onclick="Name()">My Name is?</button><br>
+
+    <script>
+        //function with no paramenters
+        function Message()
+        {
+            document.write("Welcome to Functions and Events Concept in JS");
+            
+        }
+        //function with paramenters
+        function Cube(num1,num2,num3)
+        {
+            document.write(num1*num2*num3);
+        }
+        function Time()
+        {
+            document.getElementById("a").innerHTML="12.30" +" "+"noon";
+        }
+        function Date()
+        {
+            document.getElementById("b").innerHTML="March"+" "+"29"+","+" "+"2022";
+        }
+        function Name()
+        {
+            document.write("Nischitha");
+        }
+
+
+
+    </script>
+</body>
+</html>
