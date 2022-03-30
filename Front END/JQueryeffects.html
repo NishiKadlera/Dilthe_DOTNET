@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Effects</title>
+    <style>
+        body
+        {
+            background-color: black;
+            color: white;
+        }
+        .d1,.d2,.d3
+        {
+            border-style: groove;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            background-color: crimson;
+        
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $(".a").click(function(){
+                $(".b").hide();
+            });
+            $(".c").click(function(){
+              $(".b").show();
+            });
+        });
+      </script>
+<button type="button" class="a">Lights off!!</button>
+<img src="Assets/bulb2.jpg" alt="bulb2" class="b">
+<button type="button" class="c">Lights On!</button>
+<script>
+    $(document).ready(function(){
+            $(".d").click(function(){
+                alert("Light is still on!");
+            });
+        });
+
+</script>
+<script>
+    $(document).ready(function(){
+            $(".e").click(function(){
+                $(".b").fadeTo("slow",0.2);
+            });
+        });
+</script>
+<script>
+    $(document).ready(function(){
+            $(".f").click(function(){
+                $(".b").fadeIn();
+            });
+        });
+</script>
+     <button type="button" class="d">Stay</button><br><br>
+     <button type="button" class="e">Fade To</button>
+     <button type="button" class="f">Fade In</button>
+
+</body>
+</html>

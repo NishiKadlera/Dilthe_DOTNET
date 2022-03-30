@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT OOPS</title>
+</head>
+<body>
+    <pre>
+        OOPS-Object Oriented Programming Structure.
+        Features of OOPs: Object, classes, abstraction, encapsulation, polymorphism, inheritance
+    </pre> 
+    <h1 id="a"></h1>
+    <script>
+        const book={
+            title:"Hello",
+            author:"Jhon",
+            year: 2018
+        }
+        //displaying the object
+        document.getElementById("a").innerHTML=book.title +" "+ "was published in the year " +book.year+ ", and it was written by "+ book.author;
+        document.write(book.title+"<br>");
+        document.write(book.author+"<br>");
+        document.write(book.year+"<br>"+"<br>");
+
+        var bookDetails="";
+        for(var details in book)
+        {
+            bookDetails+=book[details];
+        }
+        document.write(bookDetails+"<br>"+"<br>");
+
+        //Adding a property to an existing object
+
+        book.cost=1200;
+        var bookDetails="";
+        for(var details in book)
+        {
+            bookDetails+=book[details];
+        }
+        document.write(bookDetails+"<br>"+"<br>");
+
+        //Deleting a property from the existing object
+
+        delete book.author;
+        var bookDetails="";
+        for(var details in book)
+        {
+            bookDetails+=book[details];
+        }
+        document.write(bookDetails+"<br>"+"<br>");
+
+        //Nested Objects
+       
+        const book1=
+        {
+            name:"Jhonny",
+            subject:"HTML",
+            subjecttopics:
+            {
+                topic1:"Heading",
+                topic2:"Paragraph",
+                topic3:"Anchor"
+            }
+        }
+
+        document.write(book1.name+"<br>");
+        document.write(book1.marks+"<br>");
+        document.write(book1.subject+"<br>");
+        document.write(book1.subjecttopics.topic1+"<br>");
+        document.write(book1.subjecttopics.topic2+"<br>");
+        document.write(book1.subjecttopics.topic3+"<br>");
+
+        //function within an object
+        
+
+
+
+
+    </script>
+
+</body>
+</html>
