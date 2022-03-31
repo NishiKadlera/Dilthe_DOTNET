@@ -20,6 +20,10 @@
             background-color: crimson;
         
         }
+        .g,.i{
+            width: 200px;
+            height: 200px;
+        }
 
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -56,13 +60,34 @@
 <script>
     $(document).ready(function(){
             $(".f").click(function(){
-                $(".b").fadeIn();
+                $(".b").fadeOut();
             });
         });
 </script>
+<script>
+     $(document).ready(function(){
+            $(".j").click(function(){
+                $(".i").hide();
+            });
+            $(".l").click(function(){
+                $(".i").show();
+            });
+        });
+</script>
+            
+</script>
      <button type="button" class="d">Stay</button><br><br>
      <button type="button" class="e">Fade To</button>
-     <button type="button" class="f">Fade In</button>
+     <button type="button" class="f">Fade Out</button><br><br>
+     <img src="Assets/rosered1.jpg" alt="rose1" class="g">
+     <img src="Assets/rosered2.jpg" alt="rose1" class="g">
+     <img src="Assets/rosered3.jpg" alt="rose1" class="g">
+     <img src="Assets/rosepink1.jpg" alt="pink1" class="i">
+     <img src="Assets/rosepink2.jpg" alt="pink2" class="i">
+     <img src="Assets/rosepink3.jpg" alt="pink3" class="i">
+     <img src="Assets/rosepink4.jpg" alt="pink4" class="i"><br><br>
+     <button type="button" class="j">Get Red Roses</button><br><br>
+     <button type="button" class="l">Get Pink Roses</button><br><br>
 
 </body>
 </html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery CallFunction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style>
+    .two,.three,.four,.six,.eight{
+        width: 250px;
+        height: 30px;
+        border-style: groove;
+        background-color: grey;
+        color: brown;
+        text-align: center;
+    }
+    .one
+    {
+        width: 300px;
+        height: 300px;
+        display: none;
+    }
+    .seven
+    {
+        width: 200px;
+        height: 200px;
+        border-style: double;
+        position: relative;
+        background-color: rgb(24, 172, 221);
+        background-image: url("Assets/rosered1.jpg");
+        background-size: cover;
+        margin-left: 4in;
+    }  
+    p#a
+    {
+        font-size: large;
+        color: blue;
+    }
+    .b
+    {
+        width: 200px;
+        height: 200px;
+        background-color: cadetblue;
+        text-align: center;
+    } 
+    #c
+    {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        text-align: center;
+        font-size: small;
+    }
+</style>
+<body>
+    <script>
+        $(document).ready(function(){
+            $(".two").click(function(){
+                $(".one").slideDown("slow");
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(".three").click(function(){
+                $(".one").slideUp("slow", function(){
+                    alert("Click on Slide down for me to show up again!!")
+                });
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(".four").click(function(){
+                $(".one").slideToggle("slow");
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $(".six").click(function(){
+                var p= $("p");
+                p.animate({height: '300px'},"slow");
+                p.animate({width: '300px'},"slow");
+                p.animate({height: '200px'},"5000");
+                p.animate({width: '200px'},"3000");
+            });
+            $(".eight").click(function(){
+                $("p").stop();
+             });   
+        });
+    </script>
+
+<script>
+    $(document).ready(function(){
+        $("#nine").click(function(){
+            $("#a")
+            .css("color", "red")
+            .animate({ width: "100px" })
+            .animate({ fontSize: "50px"})
+            .fadeOut(5000);
+    });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+       $("#c").on({
+           click: function()
+           {
+            $(this).css("background-color", "green");
+           },
+           mouseenter: function()
+           {
+            $(this).css("background-color", "red");
+           },
+           mouseleave: function()
+           {
+            $(this).css("background-color", "yellow"); 
+           }
+       });
+    });
+</script>
+
+
+ <h2>SlideUp/SlideDown with callback function</h2>
+    <img src="Assets/eyes.jpg" alt="eyes"class="one"> 
+    <div class="two">Click to slideDown</div>
+    <div class="three">Click to slide up</div><br>
+
+    <div type="button" onclick="toggle()" class="four">SlideToggle</div><br><br>
+    <h2>Animation</h2><br>
+    <div class="six">start animation</div><br>
+    <div class="eight">Stop</div><br><br>
+    <p class="seven"></p>
+    <h2>Chaining Effect</h2>
+    <div class="b">
+        <h3 id="a">"Hello!!"</h3>
+        <button id="nine">Chaining</button>
+    </div>
+    <h2>On() Method</h2>
+    <h6 id="c">See the changes: mousenter/mouseleave/mouseclick</h6>
+    
+    
+    
+
+</body>
+</html>

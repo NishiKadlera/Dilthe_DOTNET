@@ -12,7 +12,9 @@
         Features of OOPs: Object, classes, abstraction, encapsulation, polymorphism, inheritance
     </pre> 
     <h1 id="a"></h1>
+    <p id="demo"></p>
     <script>
+        //creating an object
         const book={
             title:"Hello",
             author:"Jhon",
@@ -23,6 +25,8 @@
         document.write(book.title+"<br>");
         document.write(book.author+"<br>");
         document.write(book.year+"<br>"+"<br>");
+
+        //Looping through properties of object- for..in loop
 
         var bookDetails="";
         for(var details in book)
@@ -56,6 +60,7 @@
         const book1=
         {
             name:"Jhonny",
+            marks: 500,
             subject:"HTML",
             subjecttopics:
             {
@@ -70,10 +75,44 @@
         document.write(book1.subject+"<br>");
         document.write(book1.subjecttopics.topic1+"<br>");
         document.write(book1.subjecttopics.topic2+"<br>");
-        document.write(book1.subjecttopics.topic3+"<br>");
+        document.write(book1.subjecttopics.topic3+"<br>"+"<br>");
 
         //function within an object
+
+        const stuDetails=
+        {
+            firstName:"Jhon",
+            lastName:"Doe",
+            Age:30,
+            Id:101,
+            GetDetails:function()
+            {
+                return this.firstName+" "+this.lastName;
+            }
+        }
+        document.getElementById("demo").innerHTML=stuDetails.GetDetails();
         
+        //Pass by reference
+
+        const obj1=
+        {
+            username:"Peter",
+            password:"Peter@456"
+        }
+        const obj2=obj1;
+        console.log(obj1); 
+        console.log(obj2);
+        obj2.email="peter@gmail.com";
+       //To add a property only to obj2, then
+       const obj3=
+        {
+            username1:"Katy",
+            password1:"Katy@456"
+        }
+        const obj4=[].concat(obj3);
+        console.log(obj3); 
+        console.log(obj4);
+        obj4.email="katy@gmail.com";
 
 
 
