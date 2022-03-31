@@ -8,24 +8,46 @@
     <style>
         body
 {
-    background: #EECDA3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("Assets/background5.jpg");
+    background-size: cover;
 }
 .form
 {
-    margin-left: 4.5in;
-    margin-top: 2.5in;
     border-color: grey;
-    border-radius: 5px;width: 500px; height: 500px;"
+    border-radius: 15px;width: 500px; height: 500px;"
 }
+.a
+{
+    width: 400px;
+    height: 400px;
+    margin-right: 2in;
+    float:right;
+    text-align: center;
+    color: rgb(234, 255, 0);
+    font-size: xx-large;
+}
+.b
+{
+    text-align: center;
+    margin-top: 2in;
+    margin-left: 1in;
+    border-radius: 5px;
+    color: rgb(234, 255, 0);
+    font-size:x-large;
+}
+
     </style>
 </head>
 <body>
+    <div class="a"> 
+         Want this to be your Home?
+        <img src="Assets/background.jpg" alt="home" style="width: 400px; height: 350px;">   
+    </div>
+   
     <form action="" method="post" class="form" >
-        <fieldset>
+        <fieldset class="b">
             <legend style="font-size: medium;font-weight: 800; text-align: center;">
-                Want to register with us?
+                Register with us!
             </legend>
             <label><b>First Name:</b> </label>
             <input type="text" name="FirstName"><br><br>

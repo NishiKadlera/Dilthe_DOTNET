@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT CLASSES</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        class car
+        {
+            //Constructor with 2 parameters
+            constructor(name,colour)
+            {
+                this.name=name;
+                this.colour=colour;
+            }
+            //Function
+            Details()
+            {
+                return this.name + " "+ this.colour;
+            }
+        }
+        //instance/object creation
+        var car1=new car("Suzuki","Red");
+        document.write(car1.name+ " " + car1.colour);
+        document.getElementById("demo").innerHTML= car1.name+ " " + car1.colour;
+        console.log(car1.name);
+        console.log(car1.colour);
+        console.log(car1.Details());
+    </script>
+</body>
+</html>
