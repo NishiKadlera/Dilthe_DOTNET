@@ -30,6 +30,7 @@
             height: 300px;
             border-style: groove;
             border-radius: 5px;
+            background-position: relative;
             
         }
         .a
@@ -48,6 +49,11 @@
         {
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             color:rgb(234, 255, 0); ;
+        }
+        .table
+        {
+            font-size: large;
+            border-style: groove;
         }
     </style>
     <script>
@@ -99,5 +105,45 @@
             </p>
         </div>
     </div>
+    <h3>List of price range according to items</h3>
+    <section>
+        <div class="container">
+            <p>This table contains the items and their price ranges</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Sl.no</th>
+                        <th>Items</th>
+                        <th>Price in Rs.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>vases</td>
+                        <td>500-700</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Wall Frames</td>
+                        <td>300-500</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Scented Candles</td>
+                        <td>600-800</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Paintings</td>
+                        <td>2000-10000</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+        </div>
+
+    </section>
+    
 </body>
 </html>
