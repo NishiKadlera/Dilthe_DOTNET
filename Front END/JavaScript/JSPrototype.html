@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT PROTOTYPE</title>
+</head>
+<body>
+    <h1>Demo: Prototype</h1>
+	
+	<script>    
+	function Student() {
+		this.name = 'John';
+		this.gender = 'M';
+	}
+
+	Student.prototype.age = 15;
+
+	var studObj1 = new Student();
+	alert(studObj1.age); 
+
+	var studObj2 = new Student();
+	alert(studObj2.age); 
+	</script>	
+
+    <script>
+        
+    //Abstract class in JavaScript
+
+        class Employee
+        {
+        constructor() {
+        if(this.constructor == Employee){
+        throw new Error(" Object of Abstract Class cannot be created");
+        }
+        }
+        display(){
+        throw new Error("Abstract Method has no implementation");
+        }
+        }
+        class Manager extends Employee
+        {
+        display(){
+        super.display();
+        console.log("I am a Manager");
+        }
+        }
+        var emp = new Employee;
+        var mang=new Manager();
+        mang.display();
+        </script>
+</body>
+</html>
