@@ -5,30 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Coading</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/le-frog/jquery-ui.css" rel = "stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
      <style>
-         body{
+         body
+         {
              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             background-image: url("/Front END/Assets/images\ \(8\).jpg");
+             background-size: cover;
+             background-attachment: fixed;
+             font-size: large;
+             color: rgb(41, 53, 4);
+         }
+         .col-md-4
+        {
+             font-size:large;
+             text-align: center;
+             transition: ease-in;
+        }
+         div#accordion
+        {
+            background-color: rgb(0, 187, 255);
+            background-size: cover;
+            width: 800px;
+            height: 300px;
+            border-style: double;
+            border-radius: 15px;margin-left: 350px;
+        }
+         .a
+        {
+            background-color: bisque;
+        }
+         .b
+         {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:rgb(234, 255, 0);
+            background-color: aquamarine;
          }
      </style>
+     <script>
+         $(function() {
+             $( "#accordion" ).accordion({
+                 collapisble: true
+             });
+         });
+     </script>
 </head>
 <body>
-    <h1>IT World</h1>
+    <h1 style="text-align: center;"><b>Gadgets in IT World</b> </h1>
     <div class="container">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim sit incidunt totam, placeat tenetur voluptatum iure sapiente itaque reiciendis aspernatur? Nam aspernatur, tempore minus possimus culpa commodi veritatis sit.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, provident. Accusantium fugit aliquid labore aliquam laborum perferendis rerum consequatur ab fuga ut omnis aut ipsa, ad molestiae qui. Dignissimos, corporis!</p>
-    </div>
-    <div class="container">
-        <h2>Welcome to IT world</h2>
+    </div><br><br>
+
+    <div id="accordion" class="container">
+        <h3 class="b">what are Gadgets?</h3>
+        <div class="a">
+            <p>An often small mechanical or electronic device with a practical use but often thought of as a novelty.</p>
+        </div>
+        <h3 class="b">why Gadgets?</h3>
+        <div class="a">
+            <p>Simplify your life and save precious time and money. They are accommodating if used properly.</p>
+        </div>
+        <h3 class="b">Some Gadgets</h3>
+        <div class="a">
+            <p class="pagination">
+                <img src="/Front END/Assets/paintings.jpg" width="200px" height="200px">
+                <img src="/Front END/Assets/clock_1.jpg"  width="200px" height="200px"> 
+                <img src="/Front END/Assets/vases.jpg"  width="200px" height="200px">
+                <img src="/Front END/Assets/photo-frames.jpg"  width="200px" height="200px">
+                <img src="/Front END/Assets/mirrors12.jpg"  width="200px" height="200px">
+                <img src="/Front END/Assets/Candle-jio.jpg"  width="200px" height="200px">
+            </p>
+        </div>
+        <h3 class="b">what are Gadgets?</h3>
+        <div class="a">
+            <p>An often small mechanical or electronic device with a practical use but often thought of as a novelty.</p>
+        </div>
+    </div><br><br>
+
+    <div class="container"> 
+        <h2 style="text-align: center;"><b>Laptop</b></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quam quasi at perspiciatis quibusdam laborum dolorum. Beatae, minima obcaecati? Fugiat distinctio quae tenetur quibusdam incidunt? Harum deleniti ducimus dignissimos nam?</p>
         <div class="row">
-            <div class="col-md-5" style="background-color: bisque;">Hello!</div>
-
-        </div>
-
+            <div class="col-md-4" style="background-color:lavender;"><b>Hello!</b>  <br> <img src="/Front END/Assets/download (1).jpg" width="150px" height="150px">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  <img src="/Front END/Assets/images (5).jpg"width="150px" height="150px"></div>
+            <div class="col-md-4" style="background-color:orange;"><b>Welocome to</b> <br><img src="/Front END/Assets/download (2).jpg"width="150px" height="150px">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <img src="/Front END/Assets/images (6).jpg"width="150px" height="150px"></div>
+            <div class="col-md-4" style="background-color:lavender;"><b>Gadgets World</b> <br><img src="/Front END/Assets/download (3).jpg"width="150px" height="150px">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <img src="/Front END/Assets/images (7).jpg"width="150px" height="150px"></div>
+          </div>
     </div>
+    
+   
+       
+
     
 
 
