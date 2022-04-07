@@ -17,13 +17,15 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 <style>
 .p-5
 {
 height: 500px;
 }
 #background{
-    background-image: url("/Front END/Assets/plane-513641.jpg");
+  background-color: rgb(218, 241, 249);"
     background-attachment: fixed;
     background-size: cover;
 }
@@ -31,9 +33,10 @@ height: 500px;
 </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark navbar sticky-top">
-        <div class="container-fluid">
-            <a href="" class="navbar-brand text-info font-weight-bold"><img src="/Front END/Assets/flightlogo.png" alt="logo" width="35px" height="35px">
+ 
+    <nav class="navbar navbar-expand-md bg-light navbar-light navbar sticky-top">
+      <div class="container" style="background-color:rgb(218, 241, 249) ;">
+            <a href="" class="navbar-brand text-dark font-weight-bold"><img src="/Front END/Assets/flightlogo.png" alt="logo" width="35px" height="35px">
                 FlyHigh.com</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -41,109 +44,126 @@ height: 500px;
             <div class="collapse navbar-collapse " id="collapsenavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="" class="text-white" >HOME </a>&nbsp;&nbsp; 
+                        <a href="" class="text-black" >HOME </a>&nbsp;&nbsp; 
                     </li>
-                    <li class="nav-item text-white">
-                        <a href="" class="text-white" >FLIGHTS </a>&nbsp; &nbsp; 
+                    <li class="nav-item">
+                        <a href="" class="text-black" >FLIGHTS </a>&nbsp; &nbsp; 
                     </li>
-                    <li class="nav-item text-white">
-                        <a href="" class="text-white" >ABOUT </a>&nbsp; &nbsp;  
+                    <li class="nav-item">
+                        <a href="" class="text-black" >ABOUT </a>&nbsp; &nbsp;  
                     </li>
-                    <li class="nav-item text-white">
-                        <a href="" class="text-white" >CONTACT US </a>&nbsp;  &nbsp; 
+                    <li class="nav-item">
+                        <a href="" class="text-black" >CONTACT US </a>&nbsp;  &nbsp; 
                     </li>
                 </ul>
             </div>  
-        </div>
+          </div> 
     </nav>
+  
+   <!--container end-->
 
-    <div class="container-fluid" id="background">
+
+    <div class="container" id="background">
     <div class="container" >
          <div class="row">
             <div class="col-5">
-              <div class="p-5 text-white">
+              <div class="p-5 text-black">
                   <h2 style="font-size: 60px;font-family: 'Times New Roman', Times, serif;font-weight: bolder;">Travel to your dream Destination</h2>
                   <button type="button" class="btn btn-dark btn-lg">Book Flight</button>
               </div>
             </div>
             <div class="col-7">
-                <div class="p-5" style="background-image: url('/Front END/Assets/snowmountains.jpg');background-size: cover;opacity: 0.5;"></div>
+                <div class="p-5" style="background-image: url('/Front END/Assets/plane-513641.jpg');background-size: cover;height: 400px;"></div>
             </div>
         </div>
     </div>
     </div>
+     <!--container end-->
 
-    <div class="container-fluid">
-        <div class="row" style="height: 250px;">
-          <div class="p-6 col-4 bg-dark">
+    <div class="container">
+        <div class="row" style="height: 350px; background-color:black;">
+          <div class="p-6 col-4">
           </div>
-          <div class="col-4 p-6 bg-dark text-white" style="text-align: center;font-family: 'Times New Roman', Times, serif;">
+          <div class="col-4 p-6 text-white" style="text-align: center;font-family: 'Times New Roman', Times, serif;">
             <h2>Create your destination memory</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tempora nesciunt consequuntur modi excepturi neque consectetur ex provident? Ad veniam rerum officiis ducimus corporis deleniti amet. Nihil assumenda dolorem error.</p>
             <button type="button" class="btn btn-warning btn-lg">My Travel Logs</button>
           </div>
-          <div class="col-4 p-6 bg-dark">
+          <div class="col-4 p-6">
           </div>
         </div>
-      </div><br>
+      </div>
+       <!--container end-->
 
       <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <div class="card" style="width: 300px;">
+        <div class="row" style="background-color: rgb(218, 241, 249);">
+          <div class="col-4 p-5">
+            <div class="card" style="background-color: transparent; width: 300px; border: none;">
                 <img src="/Front END/Assets/man.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h2>Text</h2>
+                  <div>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi earum eos possimus exercitationem, ratione quis suscipit quibusdam? Qui sapiente ut, quasi, quo illo nihil commodi nostrum et facere ipsa consequatur.</p>
+                </div>
                 </div>
               </div>
           </div>
-          <div class="col-4">
-            <div class="card" style="width: 300px;">
-                <img src="/Front END/Assets/snowfall.jpg" class="card-img-top" alt="...">
+          <div class="col-4 p-5">
+            <div class="card" style="width: 300px;background-color: transparent;border: none;">
+                <div><img src="/Front END/Assets/snowfall.jpg" class="card-img-top" alt="..."></div>
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h2>Text</h2>
+                  <div>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi earum eos possimus exercitationem, ratione quis suscipit quibusdam? Qui sapiente ut, quasi, quo illo nihil commodi nostrum et facere ipsa consequatur.</p>
+                  </div>
                 </div>
               </div>
           </div>
-          <div class="col-4">
-            <div class="card" style="width: 300px;">
+          <div class="col-4 p-5">
+            <div class="card" style="width: 300px;background-color: transparent;border: none;">
                 <img src="/Front END/Assets/mountain2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h2>Text</h2>
+                  <div>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi earum eos possimus exercitationem, ratione quis suscipit quibusdam? Qui sapiente ut, quasi, quo illo nihil commodi nostrum et facere ipsa consequatur.</p>
+                  </div>
                 </div>
               </div>
           </div>
         </div>
       </div>
-
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-12 bg-light" style="height: 300px;text-align: center;">
-                  column1
-              </div>
-          </div>
-      </div>
+       <!--container end-->
 
       <div class="container">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="row">
-          <div class="col-md-8">.col-md-8</div>
-          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        </div>
-      
-        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <div class="row">
-          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        </div>
-      
-        <!-- Columns are always 50% wide, on mobile and desktop -->
-        <div class="row">
-          <div class="col-6">.col-6</div>
-          <div class="col-6">.col-6</div>
+          <div class="row" style="background-color:rgb(218, 241, 249);height: 500px;">
+              <div class="col-12"><br><br><br>
+                <h2 style="text-align: center;">See places you've never seen before</h2>
+              </div> 
+          </div>
+      </div>
+<!--container end-->
+
+<div class="container">
+  <div class="row" style="background-color:rgb(218, 241, 249);height: 500px;">
+    <div class="col-6">
+      <div class="p-5" style="background-image: url('/Front END/Assets/plane-513641.jpg');background-size: cover;height: 400px;"></div>
+    </div>
+    <div class="col-6">
+      <div class="card" style="width: 18rem;">
+        <img src="/Front END/Assets/plane-513641.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+
+      
+      
 
 
 </body>
