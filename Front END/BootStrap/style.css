@@ -2,6 +2,7 @@
 .p-5
 {
 height: 500px;
+text-align: center;
 }
 #background
 {
@@ -20,15 +21,59 @@ height: 500px;
 #cardstyle1,#cardstyle2,#cardstyle3,#cardstyle4
 {
   background-color: transparent;
-  
-
+}
+#background1
+{
+    background-image: url("/Front END/Assets/bg1.png");
+    height: 500px;
+}
+#accordionExample
+{
+    width: 550px;
+    margin-left: 150px;
+}
+#navbar 
+{
+    background-color: rgb(207, 219, 223);  
+}
+#cardstyle
+{
+    border-radius: 10px;
 }
 #footer
 {
   background-color: transparent;
-  color: black;
+  color: white;
 }
+
 #footerheading
 {
   text-align: center;
+}
+#footerbackground
+{
+    background-color: black;
+    height: 200px;
+}
+h4,h6,h5,h2
+{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 35px;
+ font-weight:bold
+}
+
+#backgroundlarge
+{
+    background-color: rgb(207, 219, 223);
+    height: 700px;
+}
+#backgroundbeforefooter
+{
+    background-color: rgb(207, 219, 223);
+    height: 600px;
+}
+#background2
+{
+    height: 600px;
+    background-color: rgb(207, 219, 223);
 }
