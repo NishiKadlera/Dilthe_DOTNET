@@ -25,11 +25,6 @@ text-align: center;
 {
   background-color: transparent;
 }
-#background1
-{
-    background-image: url("/Front END/Assets/bg1.png");
-    height: 500px;
-}
 #accordionExample
 {
     width: 550px;
@@ -53,6 +48,7 @@ text-align: center;
 {
     background-color: black;
     height: 250px;
+    position:static
 }
 h4,h6,h5,h2,h3
 {
@@ -97,9 +93,4 @@ h4,h6,h5,h2,h3
     display: none;
   }
 }
-i
-{
-  width: 100px;
-  height: 100px;
-  position: relative;
-}
+
