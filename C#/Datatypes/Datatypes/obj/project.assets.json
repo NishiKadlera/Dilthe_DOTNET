@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dilthe_DOTNET\\C#\\Datatypes\\Datatypes\\Trainee Deatils Task.csproj",
-      "projectName": "Trainee Deatils Task",
-      "projectPath": "C:\\Dilthe_DOTNET\\C#\\Datatypes\\Datatypes\\Trainee Deatils Task.csproj",
+      "projectUniqueName": "C:\\Dilthe_DOTNET\\C#\\Datatypes\\Datatypes\\Task1.csproj",
+      "projectName": "Task1",
+      "projectPath": "C:\\Dilthe_DOTNET\\C#\\Datatypes\\Datatypes\\Task1.csproj",
       "packagesPath": "C:\\Users\\Nishi\\.nuget\\packages\\",
       "outputPath": "C:\\Dilthe_DOTNET\\C#\\Datatypes\\Datatypes\\obj\\",
       "projectStyle": "PackageReference",
