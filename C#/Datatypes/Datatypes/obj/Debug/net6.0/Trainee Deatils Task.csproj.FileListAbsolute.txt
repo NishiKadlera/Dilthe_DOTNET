@@ -1,0 +1,15 @@
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\bin\Debug\net6.0\Trainee Deatils Task.exe
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\bin\Debug\net6.0\Trainee Deatils Task.deps.json
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\bin\Debug\net6.0\Trainee Deatils Task.runtimeconfig.json
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\bin\Debug\net6.0\Trainee Deatils Task.dll
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\bin\Debug\net6.0\Trainee Deatils Task.pdb
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\Trainee Deatils Task.csproj.AssemblyReference.cache
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\Trainee Deatils Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\Trainee Deatils Task.AssemblyInfoInputs.cache
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\Trainee Deatils Task.AssemblyInfo.cs
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\Trainee Deatils Task.csproj.CoreCompileInputs.cache
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\Trainee Deatils Task.dll
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\refint\Trainee Deatils Task.dll
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\Trainee Deatils Task.pdb
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\Trainee Deatils Task.genruntimeconfig.cache
+C:\Dilthe_DOTNET\C#\Datatypes\Datatypes\obj\Debug\net6.0\ref\Trainee Deatils Task.dll
