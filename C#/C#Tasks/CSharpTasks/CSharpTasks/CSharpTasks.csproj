@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpTasks.TotalandAverageofSubject</StartupObject>
+    <StartupObject>CSharpTasks.CalculatorUsingSwitchCase</StartupObject>
   </PropertyGroup>
 
 </Project>
