@@ -21,7 +21,7 @@ namespace CSharpTask2
             for (i = 0; i < arr.Length;i++)         
             {
                 arr[i] = Convert.ToInt32(Console.ReadLine());
-                sum+= arr[i];
+                sum+= arr[i];//logic to add the numbersd
             }
             Console.WriteLine($"Sum of natural number is: {sum}");
 
