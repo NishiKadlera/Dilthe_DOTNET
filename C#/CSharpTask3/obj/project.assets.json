@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dilthe_DOTNET\\C#\\CSharpTask3\\CSharpTask3\\CSharpTask3.csproj",
+      "projectUniqueName": "C:\\Dilthe_DOTNET\\C#\\CSharpTask3\\CSharpTask3.csproj",
       "projectName": "CSharpTask3",
-      "projectPath": "C:\\Dilthe_DOTNET\\C#\\CSharpTask3\\CSharpTask3\\CSharpTask3.csproj",
+      "projectPath": "C:\\Dilthe_DOTNET\\C#\\CSharpTask3\\CSharpTask3.csproj",
       "packagesPath": "C:\\Users\\Nishi\\.nuget\\packages\\",
-      "outputPath": "C:\\Dilthe_DOTNET\\C#\\CSharpTask3\\CSharpTask3\\obj\\",
+      "outputPath": "C:\\Dilthe_DOTNET\\C#\\CSharpTask3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
