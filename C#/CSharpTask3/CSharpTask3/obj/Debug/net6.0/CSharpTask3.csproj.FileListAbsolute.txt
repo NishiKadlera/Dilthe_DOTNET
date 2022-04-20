@@ -1,0 +1,15 @@
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\bin\Debug\net6.0\CSharpTask3.exe
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\bin\Debug\net6.0\CSharpTask3.deps.json
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\bin\Debug\net6.0\CSharpTask3.runtimeconfig.json
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\bin\Debug\net6.0\CSharpTask3.dll
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\bin\Debug\net6.0\CSharpTask3.pdb
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\CSharpTask3.csproj.AssemblyReference.cache
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\CSharpTask3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\CSharpTask3.AssemblyInfoInputs.cache
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\CSharpTask3.AssemblyInfo.cs
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\CSharpTask3.csproj.CoreCompileInputs.cache
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\CSharpTask3.dll
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\refint\CSharpTask3.dll
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\CSharpTask3.pdb
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\CSharpTask3.genruntimeconfig.cache
+C:\Dilthe_DOTNET\C#\CSharpTask3\CSharpTask3\obj\Debug\net6.0\ref\CSharpTask3.dll
