@@ -8,6 +8,9 @@ namespace CSharpTask2
 {
     internal class Sum1DArray
     {
+       /// <summary>
+       /// Sum of natural numbers in 1Darray
+       /// </summary>
         public static void Main()
         {
             int size;
@@ -24,8 +27,6 @@ namespace CSharpTask2
                 sum+= arr[i];//logic to add the numbersd
             }
             Console.WriteLine($"Sum of natural number is: {sum}");
-
-
         }
     }
 }
