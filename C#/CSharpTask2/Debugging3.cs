@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSharpTask2
+{
+    internal class Debugging3
+    {
+        /// <summary>
+        /// Login Example- check username and password
+        /// </summary>
+        public static void Main()//static-main method should be static method
+        {
+            string username, password;
+            int ctr = 0;
+            Console.Write("\n\nCheck username and password :\n");//Capital C for console
+            Console.Write("N.B. : Default user name and password is :abcd and 1234\n");
+            Console.Write("---------------------------------------\n");
+
+            do
+            {
+                Console.Write("Input a username: ");
+                username = Console.ReadLine();
+
+                Console.Write("Input a password: ");
+                password = Console.ReadLine();
+
+                if (username != "abcd" || password != "1234")
+                    ctr++;
+                else
+                    ctr = 1;
+
+            }
+            while ((username != "abcd" || password != "1234") && (ctr != 3));
+
+
+            if (ctr == 3)
+                Console.Write("\nLogin attemp three or more times. Try later!\n\n");
+            else
+                Console.Write("\nThe password entered successfully!\n\n");
+        }
+    }
+}
