@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dilthe_DOTNET\\C#\\CSharpTask4\\CSharpTask4\\CSharpTask4.csproj",
+      "projectUniqueName": "C:\\Dilthe_DOTNET\\C#\\CSharpTask4\\CSharpTask4.csproj",
       "projectName": "CSharpTask4",
-      "projectPath": "C:\\Dilthe_DOTNET\\C#\\CSharpTask4\\CSharpTask4\\CSharpTask4.csproj",
+      "projectPath": "C:\\Dilthe_DOTNET\\C#\\CSharpTask4\\CSharpTask4.csproj",
       "packagesPath": "C:\\Users\\Nishi\\.nuget\\packages\\",
-      "outputPath": "C:\\Dilthe_DOTNET\\C#\\CSharpTask4\\CSharpTask4\\obj\\",
+      "outputPath": "C:\\Dilthe_DOTNET\\C#\\CSharpTask4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
