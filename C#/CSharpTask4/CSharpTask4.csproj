@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpTask4.Inheritance</StartupObject>
+    <StartupObject>CSharpTask4.GenericCalculator</StartupObject>
   </PropertyGroup>
 
 </Project>
