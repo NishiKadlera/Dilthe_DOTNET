@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CSharpTask4
 {
-    
+
     public class Generic<T>
     {
 
         public T Add(T a, T b)
         {
-            return (dynamic) a+b;
+            return (dynamic)a + b;
 
         }
         public T Sub(T a, T b)
@@ -104,7 +104,7 @@ namespace CSharpTask4
                 c = Console.ReadLine();
             }
             while (c == "Yes" || c == "yes");
- 
+
 
         }
 
