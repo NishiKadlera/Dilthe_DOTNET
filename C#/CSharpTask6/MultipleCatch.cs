@@ -13,7 +13,7 @@ namespace CSharpTask6
         /// </summary>
         public static void Main()//main method
         {
-            float num1, num2, num;//declaring variables
+            int num1, num2, num;//declaring variables
             Console.WriteLine("******TRY CATCH-MULTIPLE CATCH*******");
             //try block
             try
@@ -27,7 +27,7 @@ namespace CSharpTask6
             }
             catch(DivideByZeroException dbze)//catch block 1
             {
-                Console.WriteLine("The denominator can not be zero");
+                Console.WriteLine(dbze.Message);
             }
             catch (FormatException fe)//catch block 2
             {
