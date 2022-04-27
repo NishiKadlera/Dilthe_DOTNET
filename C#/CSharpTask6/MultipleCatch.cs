@@ -18,6 +18,12 @@ namespace CSharpTask6
             //try block
             try
             {
+                //if we use any other datatype like float and double other than int, we need to add the below if block to display the exception message
+                //if (float.IsInfinity(result))
+                //{
+                //    Console.WriteLine("Division by zero not allowed");
+
+                //}
                 Console.WriteLine("Enter first number:");
                 num1= Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter second number:");
