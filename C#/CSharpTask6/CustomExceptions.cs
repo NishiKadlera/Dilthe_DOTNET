@@ -15,7 +15,12 @@ namespace CSharpTask6
             Console.WriteLine("********VOTING ELIGIBILITY CHECK**********\n");
             try
             {
-                
+                //if we use any other datatype like float and double other than int, we need to add the below if block to display the exception message
+                //if (float.IsInfinity(result))
+                //{
+                //    Console.WriteLine("Division by zero not allowed");
+
+                //}
                 Console.WriteLine("Enter your name here:");
                 name= Console.ReadLine();
                 Console.WriteLine("\nEnter the age:");
