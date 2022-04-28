@@ -22,13 +22,6 @@ namespace CSharpTask7
         }
     }
 
-    //public class validation
-    //{
-    //    public string name { get; set;}
-    //    public string mobile { get; set;}
-    //}
-
-
     public class RegularExpression
     {
         public static void Main()

@@ -10,7 +10,7 @@ namespace CSharpTask7
     {
         public void Dispose()
         {
-            Console.WriteLine("Memory is cleared");
+            Console.WriteLine("\n***********Memory is cleared************");
         }
     }
    
@@ -20,28 +20,20 @@ namespace CSharpTask7
         {
             int a,b,c;
             Disposable disposable = new Disposable();//instance for Disposable class
-            //Area ar = new Area();    
-            //Area Sarea = new Area();//default constructor
-            //Area Sarea1 = new Area(ar.a);//constructor with one paramener
-            //Area Aarea2  = new Area(ar.b, ar.c);//constructor with two parameter
-            //invoking the dispose method
+            
 
             Area Sarea = new Area();//default constructor
 
-            Console.WriteLine("Enter int values");
+            Console.WriteLine("Enter values");
             a = Convert.ToInt32(Console.ReadLine());
             Area Sarea1 = new Area(a);//default constructor
 
-            Console.WriteLine("Enter value1");
+            Console.WriteLine("\nEnter value1 and value2");
             b = Convert.ToInt32(Console.ReadLine());
-
-
-            Console.WriteLine("Enter value2");
             c = Convert.ToInt32(Console.ReadLine());
-            Area Aarea2  = new Area(b, c);//constructor with two parameter
+            Area Rarea2  = new Area(b, c);//constructor with two parameter
 
             disposable.Dispose();
-
 
 
         }
@@ -51,9 +43,9 @@ namespace CSharpTask7
         int a, b, c;
         public Area()
         {
-            Console.WriteLine("Working of Dispose method");
+            Console.WriteLine("***********Working of Dispose method***********\n");
         }
-        public Area(int a)//
+        public Area(int a)
         {
       
             int area = a * a;
