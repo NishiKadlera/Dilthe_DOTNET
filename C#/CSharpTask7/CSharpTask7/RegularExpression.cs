@@ -68,17 +68,17 @@ namespace CSharpTask7
 
         public static void ValidateMobile(string mobile)
         {
-             var Mregex = Regex.IsMatch(mobile, (@"(^[1-9]{10}$)"));
-             if (Mregex == false)
-             {
-                    throw new MobileException();
-             }
+            var Mregex = Regex.IsMatch(mobile, (@"(^[1-9]{10}$)"));
+            if (Mregex == false)
+            {
+                throw new MobileException();
+            }
         }
-            
 
-     
 
-        
+
+
+
 
 
 
