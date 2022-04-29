@@ -33,9 +33,11 @@ namespace CSharpTask7
                 Console.WriteLine("****REGULAR EXPRESSION****");
                 Console.WriteLine("Enter Name");
                 name = Console.ReadLine();
+                ValidateName(name);
+
                 Console.WriteLine("Enter mobile number");
                 mobile = Console.ReadLine();
-                ValidateName(name);
+                
                 ValidateMobile(mobile);
            
             }
